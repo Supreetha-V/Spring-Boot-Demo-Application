@@ -20,11 +20,12 @@ The application implements the following functionalites:
 
 ## Build and execution
 The project can be built and executed locally using the steps outlined below:
-1. git clone https://github.com/Supreetha-V/SavingsGoalService_Supreetha-Venkatesha.git
+1. git clone https://github.com/Supreetha-V/SavingsGoalApplication.git
 2. Run the application SavingsGoalApplication.
 3. Send POST request to "http://localhost:8080/savings-goal/create/{start-date}" endpoint with a valid 
    start date and authentication token to create a savings goal and add the round up difference amount from the 
    transaction feed to the savings goal.
    For example: curl -X POST http://localhost:8080/savings-goal/create/2022-07-15T17:20:36.123Z -H 'token: {accessTokenForSandBoxAPI}'
-
+4. The response should have the accountId, savingsGoalUid, transferUid and the amount in minorUnits and currency 
+   added to the savings goal.
 

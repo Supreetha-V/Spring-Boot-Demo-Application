@@ -5,7 +5,6 @@ import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 import savingsGoal.roundup.model.AccountV2;
-import savingsGoal.roundup.model.AccountV2;
 import savingsGoal.roundup.model.FeedItem;
 import savingsGoal.roundup.model.FeedItems;
 import savingsGoal.roundup.util.CommonUtils;
@@ -18,7 +17,8 @@ import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 
-import static savingsGoal.roundup.constants.Constants.*;
+import static savingsGoal.roundup.constants.Constants.FEEDITEMS_GET;
+import static savingsGoal.roundup.constants.Constants.HOSTNAME;
 
 /**
  * This class gets all the transaction feed from per account from a specified start date and calculated the round-up
