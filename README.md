@@ -1,4 +1,4 @@
-# Savings Goal Application
+# Savings Goal Application using Spring-Boot Framework
 
 ## Description
 This application implements the 'Round-Up' feature for Bank customers using the Starling Bank public developer API.
